@@ -1,0 +1,11 @@
+{
+  "name": "dsh-desktop-input-guard",
+  "version": "1.0.0",
+  "description": "在 DeepSeek Harness 工具执行前拦截高风险 Windows 桌面操作",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["dsh-plugin", "windows"],
+  "engines": { "dsh": ">=0.2.1-rc.3 <0.3.0" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
